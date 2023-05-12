@@ -1,0 +1,276 @@
+/*   .................... default css .....................*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+content: "";
+clear: both;
+display: block;
+}
+
+img{
+    max-width: 100%;
+}
+
+.ttt {
+    margin-left: 30px;
+    width: 16px;
+    height: 16px;
+    
+    opacity: 0;
+}
+.bar-icon{
+    opacity: 0;
+    visibility: hidden;
+}
+.bar-icons{
+    opacity: 0;
+    visibility: hidden;
+}
+/* _____________________header section-_-------------------______ */
+
+.header{
+    background-color: #22c3a3;
+}
+.header-logo{
+float: left;
+width: 40%;
+}
+
+.header-logo a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 15px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+
+.header-menu{
+    float: right;
+    width: 60%;
+    text-align: right;
+}
+
+
+.header-menu ul{
+    list-style: none;
+    margin-right: 50px;
+}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    display: inline-block;
+    line-height: 33px;
+    transition: .4s;
+}
+.header-menu ul li a:hover{
+    color: #d3750b;
+}
+
+
+/* -__------------bannar section ----------------*/
+
+.bannar-section{
+    text-align: center;
+    background-image: url(https://i.postimg.cc/T3yc5wFG/header-bg01.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    /* height: 624px; */
+    padding: 230px 0px;
+}
+.bannar-section h1{
+color: white;
+font-size: 50px;
+}
+
+.bannar-section h5{
+color: #fff;
+font-size: 18px;
+margin: 15px 0px;
+}
+
+.bannar-section button {
+    padding: 12px 21px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #0dbf9b;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: .4s;
+}
+
+.bannar-section button:hover{
+    background-color: #035242;
+}
+
+
+
+/* <------------------------- service section --------------------------- */
+
+.service-section{
+   border-bottom: 1px solid #0dbf9b;
+   padding: 75px 20px;
+}
+.service-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.service-title h1{}
+.service-title p{
+    color: #8e8e8e;
+}
+
+.service-item{}
+.service-item .service-box {
+    width: 15%;
+    margin: auto;
+    text-align: center;
+    float: left;
+    margin: 30px 90px;
+}
+.service-item .service-box span{
+    color: #0dbf9b;
+    font-size: 40px;
+    
+}
+.service-item .service-box h2{
+    color: #707070;
+    margin-top: 12px;
+}
+.service-item .service-box p{
+    color:#8e8e8e;
+}
+
+
+/* <!------------------- about sectiom -------------------> */
+.about-section{
+padding: 40px;
+}
+.about-heading{
+text-align: center;
+margin-bottom: 40px;
+padding: 20px 0px;
+}
+
+.about-heading h1{
+    font-size: 40px;
+}
+.about-heading p{
+    color:#8e8e8e;
+    margin-top: 10px;
+}
+
+
+
+
+.content-image-section{
+    width: 40%;
+float: left;
+
+}
+
+.content-image-section img{
+    width: 100%;
+    height: 380px;
+   
+}
+
+.content-section{
+width: 55%;
+float: right;
+margin-left: 20px;
+}
+
+.content-item{
+    margin-bottom: 25px;
+    color: #9a9a9a;
+}
+
+
+
+/* <!---------------------------- contact- section ------------------------------> */
+
+.contact-section{
+    background-color: #f6f6f6;
+    padding: 80px;
+}
+.contact-heading{
+    text-align: center;
+}
+.contact-heading h1{
+    margin-bottom:20px;
+}
+.contact-heading p{
+   color: #878787;
+}
+
+.contact-box{
+    text-align: center;
+    margin-top: 85px;
+}
+.contact-item{
+   float: left;
+   width: 33.3%;
+}
+.contact-item p{
+    color: #878787;
+}
+.contact-item span {
+    display: block;
+    color: #0dbf9b;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.contact-item a{
+    color: #878787;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+/* ------------footer top section------------------ */
+
+.footer-top{
+    background-color: #0dbf9b;
+}
+.footer-top ul{
+    list-style: none;
+    text-align: center;
+}
+.footer-top ul li{
+    display: inline-block;
+}
+.footer-top ul li a{
+    color: #fff;
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    transition: .5s;
+}
+.footer-top ul li a:hover{
+    transform: translateY(-10px);
+}
+
+
+/* ------------footer bottom section------------------ */
+.footer-bottom{
+    background-color: #222222;
+    text-align: center;
+    padding: 20px;
+    color: #878787;
+}
